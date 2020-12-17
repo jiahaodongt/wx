@@ -1,13 +1,35 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/shouye/shouyes",
+    "pages/quanbu/quanbus",
+    "pages/gouwuche/gouwuches",
+    "pages/wode/wodes"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouyes",
+          "text": "首页"
+      },
+      {
+        "pagePath": "pages/quanbu/quanbus",
+          "text": "全部"
+      },
+      {
+        "pagePath": "pages/gouwuche/gouwuches",
+          "text": "购物车"
+      },
+      {
+        "pagePath": "pages/wode/wodes",
+          "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
